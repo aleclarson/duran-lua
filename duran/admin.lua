@@ -8,6 +8,9 @@ end
 duran.space_format = function(id, fields)
   box.space[id]:format(fields)
 end
+duran.space_truncate = function(id)
+  box.space[id]:truncate()
+end
 duran.space_drop = function(id)
   box.space[id]:drop()
 end
